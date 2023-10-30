@@ -14,3 +14,6 @@ jobs:
 
       - name: show current branch status
         run: git branch -a
+
+      - name: show README contents
+        run: cat README.md
