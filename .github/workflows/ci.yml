@@ -13,4 +13,4 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: show current branch status
-        run: git branch
+        run: git branch -a
